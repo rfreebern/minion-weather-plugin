@@ -1,13 +1,17 @@
 # Minion Weather Plugin
 
-## Configuration
-```
-$this->PluginConfig['Git'] = [];
-```
+Minion, is it nice outside?
+
+## Installation
+
+* `cd` to your minion base directory.
+* `git clone https://github.com/rfreebern/minion-weather-plugin.git plugins/Weather`
+* Edit `config.php` to add `$this->PluginConfig['Weather'] = [];` in the appropriate location.
+* Restart minion.
 
 ## Usage
 
-`!weather location name`
+`!weather <location>`
 
 ### Examples
 
